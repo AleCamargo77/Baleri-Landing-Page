@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarala&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Cabeçalho */
+header {
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+    width: 100%;
+    padding: 20px;
+}
+
+.header-content {
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: center;
+}
+
+.logo img {
+    height: 80px;
+}
+.navbar-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.navbar-menu li {
+    color: white;
+    font-family: 'Sarala', sans-serif;
+    list-style: none;
+}
+
+.navbar-menu li:hover {
+    text-decoration: underline;
+    color: aqua;
+}
+
+/* Main */
+
+.main {
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.main-container img {
+    height: 350px;
+    margin-left: 180px;
+}
+
+.main-container {
+    max-width: 1400px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 105px;
+    gap: 50px;
+    margin-bottom: 40px;
+}
+
+.main-container h1 {
+    color: white;
+    font-family: 'sarala', sans-serif;
+    font-size: 38px;
+}
+
+.main-container h5 {
+    color: white;
+    font-family: 'sarala', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.main-button {
+    background: #ECD6C4;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 10px;
+    list-style: none;
+    max-width: 120px;
+    border: transparent;
+}
+
+.main-button:hover {
+    background: aqua;
+    color: white;
+}
+
+/* Informações  */
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+    
+}
+
+.info-page {
+    padding-bottom: 30px;
+    
+}
+.infopage-title {
+    border-top: 0.4px solid #FFF2E7;
+    color: white;
+    font-family: 'sarala', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    font-weight: normal;
+    width: 300px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.info-page p {
+    color: white;
+    font-family: 'sarala', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    font-weight: normal;
+    line-height: 3.5em;
+}
+
+/* Rodapé */
+footer {
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    border-top: 0.4px solid #FFF2E7;  
+}
+
+footer img {
+    height: 80px;
+    padding: 20px;
+}
